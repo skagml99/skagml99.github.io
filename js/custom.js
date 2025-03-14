@@ -46,13 +46,13 @@ $(function () {
 
 
 
-    const BT = ['00', '01', '02', '03', '04', '05', '00', '00']
+    const BT = [' ', '01', '02', '03', '04', '05', '00', '00']
 
     $('.wrapper').fullpage({
         anchors: ['intro', 'portfolio01', 'portfolio02', 'portfolio03', 'portfolio04', 'portfolio05', 'tranining', 'profile'],
         fixedElements: '.header, .footer',
         responsiveWidth: 1200,
-        //css3: false,
+        css3: false,
         onLeave: function (o, d, dr) {
             let idx = d.index;
             if (idx == 0) {
