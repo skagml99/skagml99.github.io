@@ -34,3 +34,7 @@ body {
 .section {
     overflow: hidden;
 }
+
+.fp-watermark {
+    display: none;
+}

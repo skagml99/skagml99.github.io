@@ -753,7 +753,9 @@ body {
 }
 
 @media (max-width: 768px) {
-    .portfolio {}
+    .portfolio {
+        padding: 56px 0;
+    }
 
     .portfolio h2 {
         margin-bottom: 32px;
@@ -770,6 +772,11 @@ body {
 
         /* r */
         font-size: 5vw;
+    }
+
+    .portfolio p {
+        /* r */
+        font-size: 3vw;
     }
 
     .portfolio .pt_table {
@@ -838,7 +845,7 @@ body {
 
         /* r */
         flex-direction: column;
-        gap: 32px;
+        gap: 24px;
     }
 
     .portfolio .pt_wrap>* {
@@ -851,7 +858,7 @@ body {
         transform: translate(0, 200px);
 
         /* r */
-        transition: 0.4s;
+        transition: 0s;
     }
 
     .portfolio .pt_wrap .mockup {
@@ -860,13 +867,17 @@ body {
 
         /* r */
         order: -1;
-        transition: 0.4s;
+        transition: 0s;
     }
 
     .portfolio.on .pt_wrap .desc {
         opacity: 1;
         transform: translate(0, 0);
         transition: 0.4s;
+
+        /* r */
+        transition: 0s;
+
     }
 
     .portfolio.on .pt_wrap .mockup {
@@ -874,6 +885,8 @@ body {
         transform: translate(0, 0);
         transition: 0.4s 0.4s;
 
+        /* r */
+        transition: 0s;
 
     }
 
@@ -1227,7 +1240,7 @@ body {
         border: 1px solid #ddd;
 
         /* r */
-        height: 120px;
+        height: 16vw;
     }
 
     .tranining .inner strong {

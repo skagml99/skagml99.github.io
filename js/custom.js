@@ -102,6 +102,10 @@ $(function () {
 
     $('.header .cover_lnk').on('wheel', function (e) {
         e.preventDefault();
-        return false;
-    })
+    });
+
+    $('.footer .to_top').on('click', function (e) {
+        e.preventDefault();
+        fullpage_api.moveTo(1);
+    });
 })
