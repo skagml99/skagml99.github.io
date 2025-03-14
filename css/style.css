@@ -855,6 +855,9 @@ body {
     .portfolio .pt_wrap .desc {
         opacity: 0;
         transform: translate(0, 200px);
+
+        /* r */
+        transition: 0.4s;
     }
 
     .portfolio .pt_wrap .mockup {
@@ -863,6 +866,7 @@ body {
 
         /* r */
         order: -1;
+        transition: 0.4s;
     }
 
     .portfolio.on .pt_wrap .desc {
