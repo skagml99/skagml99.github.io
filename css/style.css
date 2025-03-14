@@ -1,5 +1,6 @@
 body {
-    background: url(../images/main04.jpg)no-repeat left top/cover;
+    /* background: url(../images/main04.jpg)no-repeat left top/cover; */
+    background: url(../images/main04.jpg);
     background-color: #f9f9f9;
 
 }
@@ -262,7 +263,7 @@ body {
         color: #fff;
 
         /* r */
-        font-size: 24px;
+        font-size: 3vw;
         line-height: 32px;
     }
 
@@ -515,7 +516,7 @@ body {
         /* r */
         display: flex;
         transform: translate(-45%, -50%);
-        width: 400px;
+        width: 320px;
     }
 
     .main_visual .bl span {
@@ -885,6 +886,9 @@ body {
 
     .portfolio .mockup .mockup_img_p img {
         transition: 4s;
+
+        /* r */
+        transition: 0;
     }
 
 
@@ -981,6 +985,7 @@ body {
     border: 4px solid #d89fa0;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
 }
+
 
 .portfolio04 .mockup .mockup_img_p img {
     transition: 4s;
@@ -1341,7 +1346,6 @@ body {
         flex-direction: column;
         justify-content: center;
         padding: 24px;
-        height: 720px;
     }
 
     .profile .left {
@@ -1440,6 +1444,11 @@ body {
     .profile .right li strong {
         min-width: 120px;
 
+        /* r */
+        font-size: 3vw;
+    }
+
+    .profile .right li span {
         /* r */
         font-size: 3vw;
     }
