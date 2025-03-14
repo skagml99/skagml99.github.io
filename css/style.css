@@ -1,7 +1,14 @@
 body {
-    /* background: url(../images/main04.jpg)no-repeat left top/cover; */
-    background: url(../images/main04.jpg);
-    background-color: #f9f9f9;
+    background: url(../images/main04.jpg)no-repeat left top;
+    /* background: url(../images/main04.jpg); */
+}
+
+
+@media (max-width:1200px) {
+    body {
+        background: url(../images/main04.jpg) left top;
+        /* background: url(../images/main04.jpg); */
+    }
 
 }
 
