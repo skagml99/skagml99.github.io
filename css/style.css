@@ -1,5 +1,5 @@
 body {
-    background: #7e99b5 url(../images/main04.jpg)no-repeat left top/cover;
+    background: #7e99b5 url(../images/main04.jpg) repeat left top;
     /* background: url(../images/main04.jpg); */
 }
 
