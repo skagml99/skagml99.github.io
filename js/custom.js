@@ -46,10 +46,10 @@ $(function () {
 
 
 
-    const BT = [' ', '01', '02', '03', '04', '05', ' ', ' ']
+    const BT = [' ', '01', '02', '03', '04', '05', '06', ' ', ' ']
 
     $('.wrapper').fullpage({
-        anchors: ['intro', 'portfolio01', 'portfolio02', 'portfolio03', 'portfolio04', 'portfolio05', 'tranining', 'profile'],
+        anchors: ['intro', 'portfolio01', 'portfolio02', 'portfolio03', 'portfolio04', 'portfolio05', 'portfolio05', 'tranining', 'profile'],
         fixedElements: '.header, .footer',
         responsiveWidth: 1200,
         css3: false,
