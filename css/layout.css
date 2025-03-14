@@ -17,3 +17,20 @@ body {
     width: 100%;
     margin: 0 auto;
 }
+
+@media (max-width: 768px) {
+    .inner {
+        max-width: 141rem;
+        width: 100%;
+        margin: 0 auto;
+
+        /* r */
+        margin: 120px 16px;
+        width: auto;
+    }
+
+}
+
+/* .section {
+    overflow: hidden;
+} */
