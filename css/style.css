@@ -1324,7 +1324,7 @@ body {
     display: block;
     font-size: 24px;
     font-weight: 800;
-    margin: 16px 0;
+    margin-bottom: 8px;
     color: #f5c3d3;
 }
 
@@ -1365,7 +1365,6 @@ body {
         /* r */
         flex-direction: column;
         justify-content: center;
-        padding: 24px;
     }
 
     .profile .left {
@@ -1421,12 +1420,13 @@ body {
         display: block;
         font-size: 24px;
         font-weight: 800;
-        margin: 16px 0;
+        margin-bottom: 8px;
         color: #f5c3d3;
 
         /* r */
         font-size: 4vw;
-        margin: 8px 0;
+        margin-top: 32px;
+
     }
 
     .profile .right h3::after {
