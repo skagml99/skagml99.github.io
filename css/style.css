@@ -6,7 +6,7 @@ body {
 
 @media (max-width:1200px) {
     body {
-        background: url(../images/main04.jpg) left top;
+        background: url(../images/main04.jpg) repeat left top;
         /* background: url(../images/main04.jpg); */
     }
 
