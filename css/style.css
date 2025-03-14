@@ -1,16 +1,10 @@
 body {
-    background: url(../images/main04.jpg)no-repeat left top;
+    background: url(../images/main04.jpg)no-repeat left top/cover;
     /* background: url(../images/main04.jpg); */
 }
 
 
-@media (max-width:1200px) {
-    body {
-        background: url(../images/main04.jpg) repeat left top;
-        /* background: url(../images/main04.jpg); */
-    }
 
-}
 
 
 .header h1 {
