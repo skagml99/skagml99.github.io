@@ -472,8 +472,8 @@ body {
         margin-bottom: 240px;
 
         /* r */
-        font-size: 6vw;
-        margin-bottom: 160px;
+        font-size: 8vw;
+        margin-bottom: 80px;
     }
 
     .main_visual strong {
@@ -484,8 +484,8 @@ body {
         margin-bottom: 240px;
 
         /* r */
-        font-size: 6vw;
-        margin-bottom: 160px;
+        font-size: 8vw;
+        margin-bottom: 80px;
     }
 
 
@@ -496,7 +496,7 @@ body {
         line-height: 88px;
 
         /* r */
-        font-size: 6vw;
+        font-size: 8vw;
         line-height: 48px;
     }
 
@@ -514,8 +514,8 @@ body {
 
         /* r */
         display: flex;
-        /* transform: translate(-40%, -50%); */
-        transform: translate(-35%, -50%);
+        transform: translate(-45%, -50%);
+        width: 400px;
     }
 
     .main_visual .bl span {
@@ -836,7 +836,7 @@ body {
 
         /* r */
         flex-direction: column;
-        gap: 24px;
+        gap: 32px;
     }
 
     .portfolio .pt_wrap>* {

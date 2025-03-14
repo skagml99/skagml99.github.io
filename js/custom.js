@@ -51,8 +51,7 @@ $(function () {
     $('.wrapper').fullpage({
         anchors: ['intro', 'portfolio01', 'portfolio02', 'portfolio03', 'portfolio04', 'portfolio05', 'tranining', 'profile'],
         fixedElements: '.header, .footer',
-        // responsiveWidth: 1200,
-        scrollOverflow: false,
+        responsiveWidth: 1200,
         onLeave: function (o, d, dr) {
             let idx = d.index;
             if (idx == 0) {

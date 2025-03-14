@@ -25,12 +25,12 @@ body {
         margin: 0 auto;
 
         /* r */
-        margin: 120px 16px;
+        margin: 0 16px;
         width: auto;
     }
 
 }
 
-/* .section {
+.section {
     overflow: hidden;
-} */
+}
