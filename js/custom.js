@@ -46,7 +46,7 @@ $(function () {
 
 
 
-    const BT = [' ', '01', '02', '03', '04', '05', '00', '00']
+    const BT = ['intro', '01', '02', '03', '04', '05', 'traaning', 'profile']
 
     $('.wrapper').fullpage({
         anchors: ['intro', 'portfolio01', 'portfolio02', 'portfolio03', 'portfolio04', 'portfolio05', 'tranining', 'profile'],
