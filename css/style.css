@@ -1040,6 +1040,11 @@ body {
     transition: 4s;
 }
 
+.portfolio06 .pt_wrap .mockup {
+    order: -1;
+}
+
+
 @media (max-width: 768px) {
     .portfolio01 {
         /* position: absolute; */
@@ -1204,6 +1209,8 @@ body {
 .tranining .inner p {
     display: block;
     text-align: center;
+    font-size: 14px;
+    opacity: 0.5;
 }
 
 @media (max-width: 768px) {
@@ -1269,6 +1276,11 @@ body {
     .tranining .inner p {
         display: block;
         text-align: center;
+        font-size: 14px;
+        opacity: 0.5;
+
+        /* r */
+        font-size: 2vw;
     }
 
 }
