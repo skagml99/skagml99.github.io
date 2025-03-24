@@ -296,7 +296,7 @@ body {
     position: relative;
     max-width: 100%;
     width: 100%;
-    color: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.2);
 }
 
 
@@ -646,7 +646,7 @@ body {
 .portfolio {}
 
 .portfolio h2 {
-    margin-bottom: 32px;
+    margin-bottom: 24px;
 }
 
 .portfolio h2 strong {
@@ -759,7 +759,7 @@ body {
     }
 
     .portfolio h2 {
-        margin-bottom: 32px;
+        margin-bottom: 24px;
 
         /* r */
         margin-bottom: 8px;
@@ -1028,6 +1028,16 @@ body {
 
 .portfolio05 .mockup .mockup_img_p img {
     transition: 4s;
+}
+
+.portfolio06 .desc strong::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 1px;
+    background: #f6c777;
+
+    margin: 24px 0;
 }
 
 .portfolio06 .mockup .mockup_img_p {
